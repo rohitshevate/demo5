@@ -1,0 +1,127 @@
+{
+	margin: 0;
+	padding: 0;
+}
+
+/*header{
+	background-image: url(../4.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}*/
+ul{
+	background-color: orange;
+	width:740px;
+	font-size: 21px;
+	padding:7px;
+	position:fixed;
+	top: 160px;
+	left:92px;
+}
+	
+ul li 
+{	
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	border: 1px solid black;
+	padding:4px;
+	margin-left:6px;
+	color: white;
+	font-weight: bold;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+.title h1{
+	font-size: 75px;
+	padding:30px 70px 30px 75px;
+	background-color: bisque;
+	width:400px;
+	font-style: italic;
+	color: indigo;
+	position:fixed;
+	bottom: 427px;
+	left:300px;
+}
+.title h2{
+	font-size: 30px;
+	color: orange;
+	border-top-style: solid;
+	border-color:black;
+	border-width:1px;
+	width:1135px;
+	background-color: ivory;
+	/*width:350px;*/
+	position:fixed;
+	bottom:350px;
+	left:100px;
+	padding-top:15px;
+}
+.title h3{
+	font-size: 45px;
+	color: indigo;
+	background-color: ivory;
+	width:465px;
+	font-style:oblique;
+	position:fixed;
+	bottom:210px;
+	left:460px;
+	padding:3px;	
+}
+.title h4{
+	font-size: 45px;
+	color: indigo;
+	background-color: ivory;
+	font-style:oblique;
+	position:fixed;
+	top:350px;
+	left:370px;
+}
+.title h5{
+	position:fixed;
+	top:470px;
+	left:610px;
+	font-size: 25px;
+	color:black;
+	border: 1px solid orange;
+	background-color: orange;
+	padding:7px;
+	font-weight: bold;
+	animation-name:example;
+	animation-duration:0.8s;
+	animation-iteration-count:infinite;
+	/*transition: 0.6s ease;*/
+
+}
+@keyframes example{
+	from{color: black;}
+	to{color: white;}
+}
+.logo{
+	float:right;
+	position:fixed;
+	bottom: 430px;
+	right: 115px;
+}
+.logo1{
+	float:left;
+	position:fixed;
+	bottom:474px;
+	left: 95px;
+}
+.footer p{
+	position:fixed;
+	top:594px;
+	background-color: orange;
+	padding:4px 453px 4px 525px;
+}
+
+@media screen and (max-width:700px)
+{
+	.logo{
+		display: none;
+}
