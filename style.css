@@ -120,7 +120,7 @@ ul li a:hover{
 	padding:4px 453px 4px 525px;
 }
 
-@media screen and (max-width:300px)
+@media screen and (max-width:100px)
 {
 	#main{
 		width:100%;
