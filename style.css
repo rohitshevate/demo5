@@ -120,8 +120,16 @@ ul li a:hover{
 	padding:4px 453px 4px 525px;
 }
 
-@media screen and (max-width:700px)
+@media screen and (max-width:600px)
 {
-	.logo{
-		display: none;
+	#main{
+		width:100%;
+		float:none;
+	}
+	#sidebar{
+		width:100%;
+		float:none;
+	}
 }
+		
+	
